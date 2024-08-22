@@ -22,13 +22,13 @@
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
 
-                    <a class="btn btn-ghost text-xl"><i class="fa-solid fa-arrow-right bg-[#ABEF5F] border rounded-full -rotate-45"></i>Rinterio</a>
+                    <a class="btn btn-ghost text-3xl"><i class="fa-solid fa-arrow-right bg-[#ABEF5F] border rounded-full -rotate-45"></i>Rinterio</a>
                   </div>
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal px-1">
 
                     <li>
-                      <a href="">Home</a>
+                      <a class="font-semibold" href="">Home</a>
                     </li>
                     <li>
                         <a href="">Service</a>
@@ -45,13 +45,17 @@
                     
                   </ul>
                 </div>
-                <div class="navbar-end space-x-6">
-                    <a class="border border-slate-400 rounded-full px-1" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
-                    <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
-                  <a class="btn bg-[#ABEF5F] rounded-full px-6 font-bold">Book Consult<i class="fa-solid fa-arrow-right  bg-black text-white rounded-full -rotate-45"></i></a>
+                <div class="navbar-end  space-x-6 text-2xl hidden lg:flex justify-end">
+                    <ul class="menu menu-horizontal px-1 space-x-6">
+                        <li><a class="border border-slate-400 rounded-full px-2 mt-2 bg-white" href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li><a class="border border-slate-400 rounded-full px-2 mt-2 bg-white" href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+                  <li><a class="btn bg-[#ABEF5F] rounded-full px-6 font-bold text-xl">Book Consult<i class="fa-solid fa-arrow-right  bg-black text-white rounded-full -rotate-45"></i></a></li>
+                </ul>
+
                 </div>
                 <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         class="h-5 w-5"
@@ -65,10 +69,13 @@
                           d="M4 6h16M4 12h8m-8 6h16" />
                       </svg>
                     </div>
+
+
                     <ul
                       tabindex="0"
-                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                      <li>
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow flex justify-end ">
+
+                        <li>
                         <a href="">Home</a>
                       </li>
                       <li>
@@ -83,13 +90,22 @@
                         <li>
                           <a href="">Contact Us</a>
                         </li>
+                        <li><a class="border border-slate-400 rounded-full px-2 mt-2 bg-white" href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                        <li><a class="border border-slate-400 rounded-full px-2 mt-2 bg-white" href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+                      <li><a class="btn bg-[#ABEF5F] rounded-full px-6 font-bold text-xl">Book Consult<i class="fa-solid fa-arrow-right  bg-black text-white rounded-full -rotate-45"></i></a></li>
                     </ul>
+                    
+                
                   </div>
 
               </div>
       </nav>
       <!-- banner -->
-       <div></div>
+       <div> <div class="flex flex-col">
+        <img src="assets/banner.png" alt="">
+        <h1>A banrn house of this design has a striking appearance</h1>
+        <button class="btn bg-[#c2e798] ">View Details <i class="fa-solid fa-arrow-right bg-green-500 border rounded-full -rotate-45"></i></button>
+       </div></div>
     </header>
     <main></main>
     <footer></footer>
